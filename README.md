@@ -1,122 +1,94 @@
 <img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
-# Learn Git Fundamentals
+# Git Pull Requests and Merging
 
-**Project Link:** [View Project](https://learn.nextwork.org/projects/8bf3bcb5-a70d-418a-9c76-251365f69028)
+**Project Link:** [View Project](https://learn.nextwork.org/projects/3ac00a14-cbfc-476a-9a2f-2d9b678880b9)
 
 **Author:** Bryan Cheng  
 **Email:** bryancheng421@gmail.com
 
 ---
 
-![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/8bf3bcb5-a70d-418a-9c76-251365f69028_l5jsusg6)
+![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/3ac00a14-cbfc-476a-9a2f-2d9b678880b9_hh6gr5ka)
 
-## Project Overview: Learning Git Version Control
+## Project Overview: Collaborating with Pull Requests
 
-### Goals and objectives
+### What this project is about
 
-In this project, I'm building a git repo so that I can learn the git essentials of creating a repo, a branch and handle merge conflicts
+In this project, I'm using git to collaborate on a repo and I will be creating pull requests and merging update into the existing repo.
 
-## Setting Up the Development Environment
+## Planning Work with GitHub Issues
 
-### Installing Git and Cursor
+### Syncing the repo and creating an Issue
 
-In this step, I'm setting up git, code editor (cursor) and a github account so that I can build on and create a git repo.
+In this step, I'm syncing all the changes from my remote repo and creating a GitHub issue so that I can assign the issue to myself and understand how things work.
 
-![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/8bf3bcb5-a70d-418a-9c76-251365f69028_ryyzlsf8)
+![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/3ac00a14-cbfc-476a-9a2f-2d9b678880b9_uqfpmygx)
 
-## Configuring Git and Creating the Learning Log
+### Issue number and planned feature
 
-### Setting up Git identity and project file
+My Issue number is #1 and it plans to add a section with helpful Git learning resources including links to documentation and tutorials.
 
-In this step, I'm setting up my git identity so that I can update files and Git will know that I made the changes
 
-![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/8bf3bcb5-a70d-418a-9c76-251365f69028_d6lm2bxt)
 
-### Understanding global Git configuration
+## Building a Feature Branch and Opening a Pull Request
 
-The --global flag means my user.name and user.email will be used globally across repos. I used a specific email because that is the email address associated to my GitHub account
+### Creating the branch and PR
 
-## Initializing a Repository and Making Commits
+In this step, I'm creating a feature branch named after my issue. Add a resources section to my learning log and then commit and push. Open a pull request that links back to my issue.
 
-### Creating the first commits
+![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/3ac00a14-cbfc-476a-9a2f-2d9b678880b9_680ahudm)
 
-In this step, I'm setting up a git repository so that I can make changes and commit it using git tools.
+### Linking the PR to the Issue
 
-![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/8bf3bcb5-a70d-418a-9c76-251365f69028_blkivqea)
+I added a Resource section to my PR body.
 
-### Understanding git add vs git commit
+## Merging with a Merge Commit and Syncing Locally
 
-"git add" does include the file to the staging while "git commit" commits to the change along with a message
+### Merging and pulling changes
 
-## Branching and Working in Parallel
+In this step, I'm merging my Pull Request so that I can close issue #1 automatically. I will also sync the local main branch with the remote and delete the freature branch.
 
-### Creating and switching branches
+![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/3ac00a14-cbfc-476a-9a2f-2d9b678880b9_hh6gr5ka)
 
-In this step, I'm creating a new branch so that I can make a commit on the new branch. This will so help me understand what will happen when i make a conflicting commit on main that i'll have to handle.
+### Merge strategy and auto-closing the Issue
 
-![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/8bf3bcb5-a70d-418a-9c76-251365f69028_drz4zcda)
+I merged using the "Create a merge commit" option which preserves the full history of my feature branch inside main. After that merge,  Issue #1 was automatically closed.
 
-### Why merge conflicts occur
+## Squash Merging a Second Feature Branch
 
-A merge conflict happens because the same file has been changed in two different branches and when it comes time to merge both files and the changes together, there will be a conflict.
+### Creating the second Issue and branch
 
-## Merging Branches and Resolving Conflicts
+In this step, I'm creating the second GitHub issue for my next feature, put a feature branch with multiple small commits, and then open a pull request, squash merge it, and observe the difference in the log.
 
-### Merging feature branches into main
+![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/3ac00a14-cbfc-476a-9a2f-2d9b678880b9_lwk6giz0)
 
-In this step, I'm merging two branches with conflicting changes so that I can read and understand Git's conflict markers and resolve and complete the merge commit.
+![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/3ac00a14-cbfc-476a-9a2f-2d9b678880b9_0vuuamlc)
 
-![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/8bf3bcb5-a70d-418a-9c76-251365f69028_0e34g9cu)
+## Adding a Pull Request Template for Every Future PR
 
-### Interpreting Git conflict markers
+![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/3ac00a14-cbfc-476a-9a2f-2d9b678880b9_03nvz0yg)
 
-The conflict markers show me what the current changes are, what the incoming changes are , and it allows me to modify it as needed for my final file.
+### Why the template must live on the default branch
 
-## Publishing to GitHub
-
-### Creating a remote repository
-
-In this step, I'm setting up a public GitHub respository so that I can push my local repository into GitHub and verify my commit history and branches are visible online.
-
-![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/8bf3bcb5-a70d-418a-9c76-251365f69028_l5jsusg6)
-
-### Pushing local commits to GitHub
-
-I ran git push to upload my local commits (like my updated README file) from my computer to my GitHub repository so they would appear online.
-
-I needed a remote because Git has to know where to send my code. The remote (like origin) links my local repository to a specific GitHub repository, so git push knows the correct destination to upload my changes.
-
-## Bonus: Building a GitHub Profile README
-
-![Image](https://learn.nextwork.org/elated_blue_agile_frog/uploads/8bf3bcb5-a70d-418a-9c76-251365f69028_5y2qcn3e)
-
-### Commands used to publish the Profile README
-
-In this project extension, I used terminal commands like `git add`, `git commit`, and `git push` to push my README to my GitHub profile repository.
-
-Specifically, I ran:
-
-* `git add README.md` to stage the file
-* `git commit -m "update profile README"` to save my changes
-* `git push origin main` to upload it to my GitHub profile repository (remote)
-
-These commands sent my Profile README from my local computer to GitHub, where it appears on my profile page.
+In this project extension, I learned that the template must be on the default branch because otherwise it is hidden in the local branch.
 
 ## Reflections and Key Takeaways
 
-### Tools and concepts mastered
+### Tools and concepts learned
 
-The key tools I used include git commands on cursor. Key concepts I learnt include creating git repos, creating branches and handling merge conflicts
+The key tools I used include Git, GitHub Issues, feature branches, pull requests, merge commits, squash merges, and pull request templates. These tools helped me plan work, track tasks, collaborate through pull requests, merge changes into the main branch, and standardize future contributions.
+
+Key concepts I learnt include creating and assigning GitHub Issues, linking pull requests to issues for automatic closure, working with feature branches, syncing local and remote repositories, understanding the difference between merge commits and squash merges, maintaining project history, and using pull request templates on the default branch to improve collaboration and consistency.
 
 ### Time and challenges
 
-This project took me approximately 1 hour including documentation. The most challenging part was understanding merge conflicts and manually making edits there.
+This project took me approximately 1 hour. The most challenging part was understanding the differences between merge commits and squash merges and observing how they affect the project's commit history. It also took some attention to correctly link pull requests to issues so that the issues would close automatically after merging. Through this process, I gained a better understanding of GitHub's collaboration workflow and repository management
 
-### Looking ahead
+### Final thoughts
 
-I did this project today to learn how to use git command to create a git repo and to check the status and the branch that i'm on. Another skill I want to learn is to use git with the help of AI to make things more efficient.
+I did this project today to learn how to use Git and GitHub for collaborative development, including creating and managing issues, working with feature branches, opening pull requests, and using different merge strategies to integrate changes into a repository. Another skill I want to learn is resolving merge conflicts effectively and contributing to larger open-source projects, so I can gain more experience working in team-based development environments.
 
 ---
 
-*Built with [NextWork](https://learn.nextwork.org) - [View this project](https://learn.nextwork.org/projects/8bf3bcb5-a70d-418a-9c76-251365f69028)*
+*Built with [NextWork](https://learn.nextwork.org) - [View this project](https://learn.nextwork.org/projects/3ac00a14-cbfc-476a-9a2f-2d9b678880b9)*
